@@ -35,35 +35,6 @@
             <artifactId>org.eclipse.jgit</artifactId>
             <version>5.1.3.201810200350-r</version>
         </dependency>
-
-        <!--测试使用 可删除 -->
-        <dependency>
-            <groupId>com.xinxinfinance.xcredit</groupId>
-            <artifactId>xcredit-api</artifactId>
-            <version>1.34.20200227</version>
-        </dependency>
-
-        <!--测试使用 可删除 -->
-        <dependency>
-            <groupId>com.xinxinfinance.xcas</groupId>
-            <artifactId>xcas-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-        </dependency>
-
     </dependencies>
-
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>nexus releases</name>
-            <url>http://10.0.50.140:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>nexus snapshots</name>
-            <url>http://10.0.50.140:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
-
 
 </project>
