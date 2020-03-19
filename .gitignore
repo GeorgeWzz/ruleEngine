@@ -1,0 +1,33 @@
+/target/
+
+# Eclipse
+.classpath
+.project
+linemap.txt
+.settings/
+*/bin/
+
+
+
+# Intellij
+.idea/
+*.iml
+*.iws
+
+.vinfo
+
+# Mac
+.DS_Store
+
+# Maven
+log/
+target/
+
+#Gradle
+.gradle
+build/
+*/build/
+
+en=**/
+classes/
+
